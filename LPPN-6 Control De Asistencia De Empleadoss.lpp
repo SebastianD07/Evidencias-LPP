@@ -1,0 +1,56 @@
+entero horaentrada, horasalida, horastrabajadas, entrada,salida
+cadena [25] IDempleado 
+caracter continuar
+inicio
+continuar<-'s'
+horaentrada<-6
+horasalida<-7
+
+mientras continuar= 's' haga
+
+escriba "Horario de ingreso a la empresa (Formato militar): "
+llamar nueva_linea 
+
+escriba "hora entrada: 06 a.m"
+llamar nueva_linea 
+escriba "hora salida: 19 p.m "
+llamar nueva_linea 
+
+escriba "Por favor ingrese el ID de el empleado: "
+lea IDempleado
+llamar nueva_linea 
+
+escriba "Por favor ingrese la hora de entrada: "
+lea entrada
+llamar nueva_linea 
+
+escriba "Por favor ingrese la hora de salida:  "
+lea salida
+llamar nueva_linea 
+
+
+horastrabajadas<-salida-entrada
+llamar nueva_linea   
+
+
+
+si entrada >horaentrada entonces 
+escriba "El empleado identificado con ", IDempleado, " ha llegado tarde"
+llamar nueva_linea 
+fin si
+ 
+si entrada< horaentrada entonces 
+escriba "El empleado identificado con ", IDempleado, " se encuentra ausente"
+llamar nueva_linea
+sino 
+escriba "Horas trabajadas ", horastrabajadas
+llamar nueva_linea
+fin si 
+
+escriba "¿Deseas consultar otro empleado? (s/n): "
+lea continuar
+llamar nueva_linea
+fin mientras
+
+fin 
+ 

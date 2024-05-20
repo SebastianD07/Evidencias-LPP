@@ -1,0 +1,31 @@
+real num1, num2, num3 
+inicio 
+escriba "ingrese un numero"
+lea num1
+escriba "ingrese un numero"
+lea num2
+escriba "ingrese un numero"
+lea num3
+
+     si (num1>num2) y (num1>num3)entonces 
+      escriba "el numero mayor es: ", num1
+      llamar nueva_linea 
+      
+     sino 
+      si(num2>num1) y (num2>num3)entonces 
+     escriba "el numero mayor es: ", num2
+     llamar nueva_linea 
+
+           sino 
+          si (num3>num2) y (num3>num1)entonces 
+           escriba "el numero mayor es: ", num3
+           llamar nueva_linea
+
+                  sino
+                  llamar nueva_linea
+                  escriba "el nuemro mayor no es valido"
+             fin si
+        fin si 
+   fin si 
+fin
+

@@ -1,0 +1,20 @@
+real num1,num2,suma,resta,multiplicacion,division
+inicio
+escriba "Ingrese el primer numero: "
+lea num1
+escriba "Ingrese el segundo numero: "
+lea num2
+
+suma<-num1 +num2
+resta<-num1 -num2
+multiplicacion<-num1 *num2
+division<-num1/num2
+
+escriba "El valor de la suma es: ",suma
+llamar nueva_linea
+escriba "El valor de la resta es: ",resta
+llamar nueva_linea 
+escriba "El valor de la multiplicacion: ",multiplicacion
+llamar nueva_linea
+escriba "El valor de la division: ",division
+fin

@@ -1,0 +1,16 @@
+entero tabla, producto, lineas, i
+inicio 
+escriba "Ingrese el numero del que quiere la tabla: "
+lea tabla 
+llamar nueva_linea 
+escriba " hasta que numero quiere que se multiplique: " 
+lea lineas
+llamar nueva_linea 
+escriba "La tabla del ",tabla," es: "
+llamar nueva_linea 
+para i <- 1 hasta lineas haga 
+producto <- tabla * i
+escriba tabla, " x ", i, " = ", producto
+llamar nueva_linea 
+fin para 
+fin 

@@ -1,0 +1,11 @@
+real base,h,perimetro
+inicio
+escriba "Ingresa la base del rectangulo: "
+lea base
+escriba "Ingresa la altura del rectangulo: "
+lea h
+
+perimetro<-(base*2)+(h*2)
+
+escriba "El resultado del perimetro del rectangulo es: ",perimetro
+fin

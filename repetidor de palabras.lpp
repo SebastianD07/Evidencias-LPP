@@ -1,0 +1,11 @@
+entero S
+cadena [25]palabra
+inicio 
+escriba "escriba la palabra que quiere que se repita:"
+lea palabra 
+para S<-1 hasta 30 haga
+escriba palabra
+llamar nueva_linea 
+llamar nueva_linea 
+fin para 
+fin 

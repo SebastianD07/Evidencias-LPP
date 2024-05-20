@@ -1,0 +1,8 @@
+real descuento ,precio,valort
+Inicio 
+Escriba "Ingrese el precio del producto: "
+Lea Precio
+descuento<-(precio*20)/100
+valort<-precio-descuento
+escriba "El valor final del producto es: ", valort
+fin

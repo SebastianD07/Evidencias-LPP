@@ -1,0 +1,74 @@
+entero cupostotales, edadminima, edad, cuposdisponiblescurso1, cuposdisponiblescurso2, estudiantesinscritos, cursoelegido 
+cadena [25] nombreestudiante
+caracter continuar
+inicio 
+
+continuar<- 's'
+cupostotales<-10
+edadminima<-15
+cuposdisponiblescurso1<-5
+cuposdisponiblescurso2<-5
+estudiantesinscritos<-0
+
+
+ mientras continuar= 's' haga
+
+escriba "Por favor ingrese el nombre y apellido de el estudiante: "
+lea nombreestudiante
+llamar nueva_linea 
+
+
+escriba "Por favor ingrese la edad de el estudiante: "
+lea edad
+llamar nueva_linea
+ 
+
+si edad>=edadminima entonces 
+llamar nueva_linea 
+
+
+escriba "Estos son los cursos disponibles: "
+llamar nueva_linea
+ 
+escriba "  1.Informatica: ",(cuposdisponiblescurso1), " cupos disponibles"
+llamar nueva_linea
+
+escriba "  2.Ingles: ",(cuposdisponiblescurso2), " cupos disponibles"
+llamar nueva_linea
+
+escriba "Por favor ingrese un numero para seleccionar el curos que desea EJ: 1,2 : "
+lea cursoelegido
+llamar nueva_linea 
+
+si cursoelegido=1 entonces 
+cuposdisponiblescurso1 <- Cuposdisponiblescurso1 - 1
+escriba "1.El estudiante ", (nombreestudiante), " fue registrado en el curso elegido"
+llamar nueva_linea 
+
+
+sino si cursoelegido=2 entonces 
+cuposdisponiblescurso2 <- cuposdisponiblescurso2 - 1
+escriba "2.El estudiante ", (nombreestudiante), " fue registrado en el curso elegido"
+llamar nueva_linea 
+fin si
+fin si 
+
+
+estudiantesinscritos <- estudiantesinscritos+1
+sino 
+
+fin si 
+si edad <edadminima entonces
+escriba "Lo sentimos pero no puedes completar tu resgistro debido a que el estudiante debe tener la edad superior a ", edadminima ,"años" 
+llamar nueva_linea 
+fin si  
+
+
+escriba "¿Deseas inscribir otro estudiante? (s/n): "
+lea continuar
+llamar nueva_linea 
+fin mientras
+
+
+
+fin

@@ -1,0 +1,13 @@
+real decimal,octal,hexadecimal,binario
+inicio
+escriba "Ingresa un valor decimal: "
+lea decimal
+octal<-decimal/4
+hexadecimal<-octal/8
+
+escriba "Los valores de la conversion son: "
+llamar nueva_linea
+escriba "Octal: ", octal
+llamar nueva_linea
+escriba "Hexadecimal: ", hexadecimal
+fin

@@ -1,0 +1,9 @@
+entero contador
+cadena [25]nombre
+inicio
+   contador <-0
+     mientras contador <10 haga 
+         escriba "Por favor ingrese su nombre: "
+        lea nombre 
+            contador<- contador+1
+fin mientras 

@@ -1,0 +1,17 @@
+Real num1, num2, num3, num4, num5, promedio 
+Inicio 
+Escriba "Ingrese el primer numero que desea sacarle el promedio"
+       Lea num1
+Escriba "Ingrese el segundo numero que desea sacarle el promedio"
+       Lea num2
+Escriba "Ingrese el tercer numero que desea sacarle el promedio"
+       Lea num3
+Escriba "Ingrese el cuarto numero que desea sacarle el promedio"
+       Lea num4
+Escriba "Ingrese el cuarto numero que desea sacarle el promedio"
+       Lea num5
+Escriba "Ingrese el quinto numero que desea sacarle el promedio"
+
+Promedio<-(num1+num2+num3+num4+num5)/5
+Escriba "El resultado de el promedio es: ", promedio
+Fin

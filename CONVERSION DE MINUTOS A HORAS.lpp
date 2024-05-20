@@ -1,0 +1,14 @@
+Real minutos,segundos,horas
+inicio
+escriba "Escriba los minutos que desea convertir a segundos y horas: "
+lea minutos
+segundos<-minutos*60
+
+horas<-(minutos/60)
+
+escriba "El resultado es el siguiente: "
+llamar nueva_linea
+escriba "Segundos: ", segundos, " /s"
+llamar nueva_linea
+escriba "Horas: ", horas, " /h"
+fin

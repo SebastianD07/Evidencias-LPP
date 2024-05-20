@@ -1,0 +1,31 @@
+//numeros iguales multiplicarlos 
+//primer número mayor que el segundo restarlos 
+//primer número menor que el segundo sumarlos
+
+entero num1, num2 
+cadena [50]nombre
+
+inicio 
+escriba "Por favor ingrese su nombre: "
+lea nombre
+escriba "Ingrese dos numeros: "
+lea num1,num2
+
+              si num1=num2 entonces 
+              escriba "si los numeros son iguales se multiplicaran"
+              llamar nueva_linea 
+              escriba num1, "x", num2, "-", num1*num2
+
+              sino 
+              si num1>num2 entonces 
+              escriba "Si el primer numero es mayor se restara"
+              llamar nueva_linea 
+              escriba num1, "-", num2, "=", num1-num2
+    
+              sino
+              escriba "Si el primer numero es menor se sumara"
+              llamar nueva_linea 
+              escriba num1, "+", num2, "=", num1+num2
+        fin si
+   fin si
+fin    

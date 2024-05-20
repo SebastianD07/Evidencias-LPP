@@ -1,0 +1,20 @@
+real num1,byte,kb,mb,tb,pb,b
+inicio
+escriba "Ingresa un valor megabyte que desees convertir: "
+lea mb
+
+byte<-mb*1000000
+kb<-mb*1000
+tb<-mb*1000000
+pb<-mb/1000000000
+
+escriba "El valor de las conversiones son las siguientes: "
+llamar nueva_linea
+escriba "La conversion a byte es: ", byte
+llamar nueva_linea
+escriba "La conversion a kilobyte es: ", kb
+llamar nueva_linea
+escriba "La conversion a terabyte es: ", tb
+llamar nueva_linea
+escriba "La conversion a petabyte es: ", pb
+fin
